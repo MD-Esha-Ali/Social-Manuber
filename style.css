@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ddd;
+}
+.iconimg{
+
+}
+.iconimg ul{
+   position: absolute;
+   top: 5%;
+   left: 28%;
+   transition: translate(-50%, -50%);
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+.iconimg li{
+  list-style: none;
+}
+.iconimg a{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+.iconimg a:hover{
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.iconimg ul li a img {
+    width: 100%;
+	height: 100%;
+	display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+	border-radius: 50%;
+	line-height: calc(60px - 12px);
+	font-size: 24px;
+	color: #262626;
+	transition: .5s;
+}
+.template{
+	width: 960px;
+	margin: 0 auto;
+}
+.tomar{
+	margin-top: 200px;
+	
+}
